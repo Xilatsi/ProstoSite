@@ -1,0 +1,28 @@
+h1 {
+        text-align: center;
+        font-size: 48px;
+}
+body {
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+p {
+    font-weight: normal; /* Змінює жирність шрифта на жирний */
+    font-size: 24px; /* Змінює розмір шрифта на 16 пікселів */
+}
+.text1{
+    margin-top: 60px;
+
+}
+.text2{
+    margin-top: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer{
+    margin-top: 20px;
+}
