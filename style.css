@@ -9,13 +9,14 @@ body {
 
 }
 h3 {
-  text-indent: 20px; /* Встановлення відступу абзаців */
+    margin-left: 20px; /* Встановлення відступу зліва для заголовку третього рівня */
 }
+
 p {
-        text-align: justify;
+    text-align: justify;
     text-indent: 20px; /* Встановлення відступу абзаців */
-    font-weight: normal; /* Змінює жирність шрифта на жирний */
-    font-size: 24px; /* Змінює розмір шрифта на 16 пікселів */
+    font-weight: normal; /* Змінює жирність шрифта на звичайний */
+    font-size: 24px; /* Змінює розмір шрифта на 24 пікселя */
 }
 .text1{
     margin-top: 60px;
