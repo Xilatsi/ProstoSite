@@ -32,3 +32,32 @@ h2{
 .footer{
     margin-top: 20px;
 }
+/* Стилізація кнопок */
+    .date-btn {
+        
+      display: block; /* Робимо кнопки блоковими для розміщення в стовпчик */
+      width: 100%; /* Розтягуємо кнопки на всю доступну ширину */
+      padding: 5px 10px;
+      margin: 5px 0; /* Додатковий відступ між кнопками */
+      cursor: pointer;
+      border: 1px solid #000;
+      border-radius: 3px;
+      background-color: #fff;
+      
+    }
+
+    /* Стилізація тексту, який буде з'являтися */
+    .text-content {
+      display: none; /* Приховання тексту за замовчуванням */
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      transition: all 0.3s ease; /* Додамо плавний перехід для анімації */  
+    }
+
+    /* Показуємо текст, якщо елемент має клас visible */
+    .visible {
+      display: block !important;
+    }
