@@ -1,62 +1,213 @@
-h1 {
+@media screen and (max-width: 767px) {
+    body{
+        margin: auto;
+    }
+    /* Текст */
+    h1{
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .h2__under_header{
+        display: flex;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        justify-content: center;
+    }
+    h2{
+        display: flex;
+        color: #000;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        justify-content: center;
+    }
+    .header{
+        display: flex;
+        padding: 26px 0px 25px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .footer{
+        width: 430px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+
+
+
+
+
+    /* Кнопки */
+    /* Стилізація кнопок */
+    .date-btn {
+        
+        display: block; /* Робимо кнопки блоковими для розміщення в стовпчик */
+        width: 100%; /* Розтягуємо кнопки на всю доступну ширину */
+        padding: 5px 10px;
+        margin: 5px 0; /* Додатковий відступ між кнопками */
+        cursor: pointer;
+        border: 1px solid #000;
+        border-radius: 3px;
+        background-color: #fff;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+        
+      }
+  
+      /* Стилізація тексту, який буде з'являтися */
+      .text-content {
+        display: none; /* Приховання тексту за замовчуванням */
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: all 0.3s ease; /* Додамо плавний перехід для анімації */  
+      }
+  
+      /* Показуємо текст, якщо елемент має клас visible */
+      .visible {
+        display: block !important;
+      }
+      .preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff; /* Задайте бажаний колір фону */
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .loader {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #3498db;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+
+
+}
+@media screen and (min-width: 768px) {
+    h1 {
         text-align: center;
         font-size: 48px;
-}
-body {
+    }
+    body {
     margin: auto;
     margin-left: 70px;
     margin-right: 70px;
-
-}
-h3 {
+    
+    }
+    h3 {
     margin-left: 20px; /* Встановлення відступу зліва для заголовку третього рівня */
-}
-
-p {
+    }
+    
+    p {
     text-align: justify;
     text-indent: 20px; /* Встановлення відступу абзаців */
     font-weight: normal; /* Змінює жирність шрифта на звичайний */
     font-size: 24px; /* Змінює розмір шрифта на 24 пікселя */
-}
-.text1{
+    }
+    .text1{
     margin-top: 60px;
-
-}
-.text2{
+    
+    }
+    .text2{
     margin-top: 60px;
-}
-h2{
+    }
+    h2{
     text-align: center;
     font-size: 30px;
-}
-.footer{
+    }
+    .footer{
     margin-top: 20px;
-}
-.date-btn {
+    }
+    
+        /* Стилізація кнопок */
+        .date-btn {
+            
+          display: block; /* Робимо кнопки блоковими для розміщення в стовпчик */
+          width: 100%; /* Розтягуємо кнопки на всю доступну ширину */
+          padding: 5px 10px;
+          margin: 5px 0; /* Додатковий відступ між кнопками */
+          cursor: pointer;
+          border: 1px solid #000;
+          border-radius: 3px;
+          background-color: #fff;
+          
+        }
+    
+        /* Стилізація тексту, який буде з'являтися */
+        .text-content {
+          display: none; /* Приховання тексту за замовчуванням */
+          margin-top: 10px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+          transition: all 0.3s ease; /* Додамо плавний перехід для анімації */  
+        }
+    
+        /* Показуємо текст, якщо елемент має клас visible */
+        .visible {
+          display: block !important;
+        }
+        .preloader {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #fff; /* Задайте бажаний колір фону */
+          z-index: 9999;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         
-      display: block; /* Робимо кнопки блоковими для розміщення в стовпчик */
-      width: 100%; /* Розтягуємо кнопки на всю доступну ширину */
-      padding: 5px 10px;
-      margin: 5px 0; /* Додатковий відступ між кнопками */
-      cursor: pointer;
-      border: 1px solid #000;
-      border-radius: 3px;
-      background-color: #fff;
-      
-    }
-
-    /* Стилізація тексту, який буде з'являтися */
-    .text-content {
-      display: none; /* Приховання тексту за замовчуванням */
-      margin-top: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      background-color: #f9f9f9;
-      transition: all 0.3s ease; /* Додамо плавний перехід для анімації */  
-    }
-
-    /* Показуємо текст, якщо елемент має клас visible */
-    .visible {
-      display: block !important;
-    }
+        .loader {
+          border: 5px solid #f3f3f3;
+          border-top: 5px solid #3498db;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        
+}
