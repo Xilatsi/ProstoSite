@@ -128,7 +128,13 @@
         text-align: center;
         font-size: 48px;
     }
-    iframe {
+    .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Висота на весь екран, змініть за потребою */
+}
+    .video iframe {
     display: flex;
     justify-content: center;
     align-items: center;
