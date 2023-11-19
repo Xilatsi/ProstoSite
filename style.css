@@ -31,6 +31,7 @@
         line-height: normal;
         justify-content: center;
     }
+    
     .header{
         display: flex;
         padding: 26px 0px 25px 0px;
@@ -100,6 +101,10 @@
         justify-content: center;
         align-items: center;
       }
+    iframe {
+        width: 100%; /* Займати всю доступну ширину */
+        height: auto; /* Автоматична висота, щоб зберегти пропорції */
+    }
       
       .loader {
         border: 5px solid #f3f3f3;
@@ -123,6 +128,14 @@
         text-align: center;
         font-size: 48px;
     }
+    iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 315px;
+    
+}  
     body {
     margin: auto;
     margin-left: 70px;
