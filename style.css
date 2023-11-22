@@ -2,6 +2,12 @@
     body{
         margin: auto;
     }
+    .centered-image {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+      height: auto;
+    }
     .all_buttons{
       display: flex;
       align-items: center;
@@ -139,6 +145,12 @@
     h1 {
         text-align: center;
         font-size: 48px;
+    }
+    .centered-image {
+      display: block;
+      margin: 0 auto;
+      width: 800px;
+      height: auto;
     }
     .video {
     display: flex;
