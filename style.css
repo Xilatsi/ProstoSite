@@ -2,7 +2,7 @@
     body{
         margin: auto;
     }
-    .centered-image {
+    .centered-image{
       display: block;
       margin: 0 auto;
       width: 400px;
@@ -146,7 +146,7 @@
         text-align: center;
         font-size: 48px;
     }
-    .centered-image {
+    .centered-image{
       display: block;
       margin: 0 auto;
       width: 800px;
